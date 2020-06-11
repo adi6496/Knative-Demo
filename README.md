@@ -1,5 +1,9 @@
 # Knative-Demo
 
+Prereqs: 
+1. Knative serving operator installed (https://docs.openshift.com/container-platform/4.3/serverless/installing_serverless/installing-knative-serving.html)
+2. Knative Eventing operator installed (https://docs.openshift.com/container-platform/4.3/serverless/installing_serverless/installing-knative-eventing.html#installing-knative-eventing)
+
 Create a new project Knative Demo
 ```
 oc new-project knative-demo
