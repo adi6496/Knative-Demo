@@ -56,9 +56,7 @@ You can watch the logs from the Openshift console. You will see the events displ
 {
   "message" : "Thanks for doing Knative Tutorial",
   "host" : "Event  greeter => '9861675f8845' : 1",
-  "time" : "17:17:02"
-  ```
-  
+  "time" : "17:17:02" 
 }
 ```
 
