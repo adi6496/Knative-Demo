@@ -1,5 +1,10 @@
 # Knative-Demo
 
+Create a new project Knative Demo
+```
+oc new-project knative-demo
+```
+
 ##Knative Serving Demo
 
 We use python flask to create a sample application. This sample application prints "Hello world"
