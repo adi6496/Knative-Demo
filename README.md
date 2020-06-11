@@ -32,7 +32,7 @@ We use a Cronjob Event source to send events at regular intervals. The event dat
 
 To deploy a event-source,
 ```
-oc apply -f knative-eventing/event-sender.yaml
+oc apply -f knative-eventing/event-source.yaml
 ```
 To check the output, 
 ```
