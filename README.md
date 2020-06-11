@@ -62,6 +62,10 @@ You can watch the logs from the Openshift console. You will see the events displ
 }
 ```
 
+Exercise: 
+1. Now that we have setup Cronjob event source, try to setup a kafka source which sends data to event display using KafkaSource. (https://knative.dev/docs/eventing/samples/kafka/source/index.html)
+2. After trying KafkaSource, you can try deploying http kafka bridge and connecting it to KafkaSource and then seeing the images in event display pod. 
+
 
 
 
