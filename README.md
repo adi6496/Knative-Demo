@@ -9,7 +9,7 @@ Create a new project Knative Demo
 oc new-project knative-demo
 ```
 
-##Knative Serving Demo
+## Knative Serving Demo
 
 We use python flask to create a sample application. This sample application prints "Hello world"
 
@@ -30,7 +30,7 @@ curl <url>
 ```
 
 
-##Knative Eventing Demo
+## Knative Eventing Demo
 
 We use a Cronjob Event source to send events at regular intervals. The event data is sent to a configured sink. 
 
