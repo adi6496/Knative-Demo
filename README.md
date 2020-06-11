@@ -32,6 +32,12 @@ curl <url>
 
 ## Knative Eventing Demo
 
+We deploy a service which will display the events from the event source. 
+
+```
+oc apply -f knative-eventing/event-display.yaml
+```
+
 We use a Cronjob Event source to send events at regular intervals. The event data is sent to a configured sink. 
 
 To deploy a event-source,
@@ -44,12 +50,6 @@ oc get cronjobsources.sources.eventing.knative.dev
 NAME                           READY   AGE
 event-greeter-cronjob-source   True    12m
 ```
-Now we deploy a service which will display the events from the event source. 
-
-```
-oc apply -f event-display.yaml
-```
-
 You can watch the logs from the Openshift console. You will see the events displayed like this.
 
 ```
